@@ -1,0 +1,139 @@
+body{
+  background-color:lightgreen;
+}
+.header{
+  background-color:pink;
+  font-family: 'Sofia';
+  border-radius: 1rem;
+
+}
+.product_font{
+  font-family: 'Amita';
+
+}
+
+
+.product_img{
+  /* background-color:; */
+  border-radius: 1.0rem;
+}
+
+.cart{
+  border-radius: 1.5rem;
+  background-color:cyan;
+  padding: 1.5rem;
+  float: left;
+  margin: 3rem;
+  height: auto;
+
+}
+
+.ul {
+  list-style-type: circle;
+  
+} 
+
+li {
+  display: inline-block;
+  
+   margin-right: 1rem; 
+} 
+
+ul li {
+  color:black;
+  font-family: monospace;
+  /* margin-top: 1rem; */
+  font-weight: 900;
+  font-size: x-large;
+}
+
+
+.bg {
+  width: .5rem;
+  height: .5rem;
+  text-align: center;
+  padding: 1px;
+  margin-right: 2.0rem;
+  /* transition: 0.2s all ease; */
+  border-radius: 50%;
+}
+
+.bg:hover {
+  background-color: #ff6d39;
+  border-radius: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.yellow {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #fec60f;
+  border-radius: 50%;
+  border: .3rem solid rgba(0, 0, 0, 0);
+  transition: 0.2s all ease;
+}
+
+.black {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #000000;
+  border-radius: 50%;
+  border: .3rem solid rgba(0, 0, 0, 0);
+  transition: 0.2s all ease;
+}
+
+.blue {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background-color: #02a2ca;
+  border-radius: 50%;
+  border: .3rem solid rgba(0, 0, 0, 0);
+  transition: 0.2s all ease;
+}
+
+.yellow:hover,
+.black:hover,
+.blue:hover {
+  border: 1rem solid #f76b39;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.button{
+  background-origin: content-box;
+  text-align: center;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: palevioletred;
+  font-weight: bolder;
+  color : whitesmoke;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  
+
+}
+
+.button:hover{
+  transform: scale(1.50,1.50);
+  
+}
+/* Footer{
+  bottom: 0;
+  font-size: 1rem;
+
+  background-color: lightgreen;
+} */
+
+
+
+
+
+
+

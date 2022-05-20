@@ -1,10 +1,22 @@
+import Mp from "./mp";
+
 function Detailsupdater(props) {
-    return (
+  var raj = props.daa.items
+
+
+  // console.log(raj)
+
+  
+    return ( 
       <div>
-        <p> name - {props.daa.name}</p>
-        <p> height - {props.daa.height}</p>
-        <p>mass = {props.daa.mass}</p>
-        <p> skin color - {props.daa.skin_color}</p>
+        
+        <ul>
+          {raj.map(p => 
+          <Mp p={p.volumeInfo}/>)}
+          </ul>
+        {/* <p> height - {props.daa.height}</p>
+        <p>mass - {props.daa.mass}</p>
+        <p> skin color - {props.daa.skin_color}</p> */}
       </div>
     );
   }
